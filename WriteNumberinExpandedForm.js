@@ -7,7 +7,7 @@ expandedForm(70304); // Should return '70000 + 300 + 4'
 
 NOTE: All numbers will be whole numbers greater than 0.
   
-}
+
 */
 function expandedForm(num) {
   var digits = num.toString().split('').reverse().map(function(e, index){
@@ -19,3 +19,4 @@ function expandedForm(num) {
   console.log(digits);
   
   return digits;
+}
